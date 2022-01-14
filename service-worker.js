@@ -4,17 +4,17 @@ const RUNTIME = 'runtime-1';
 const PRECACHE_URLS = [
   'index.html',
   './',
-  '/public/favicon.png',
-  '/public/aeropress.json',
-  '/public/moka.json',
-  '/public/v_60.json',
-  '/public/frenchPress.json',
-  '/public/audio/end.wav',
-  '/public/audio/stage.wav',
-  '/public/audio/tick.wav',
-  '/public/build/bundle.css',
-  '/public/build/bundle.js',
-  '/public/global.css'
+  './public/favicon.png',
+  './public/aeropress.json',
+  './public/moka.json',
+  './public/v_60.json',
+  './public/frenchPress.json',
+  './public/audio/end.wav',
+  './public/audio/stage.wav',
+  './public/audio/tick.wav',
+  './public/build/bundle.css',
+  './public/build/bundle.js',
+  './public/global.css'
 ];
 
 self.addEventListener('install', event => {
